@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="site de pontos turísticos Rio de Janeiro "
+    />
+    <meta name="keywords" content="html, css, javascript, bootstrap" />
+    <meta name="author" content="Davi_dev" />
+
+    <title>Rio Cidade Maravilhosa</title>
+
+    <link rel="icon" href="./img03/dev_davi.jpg" />
+
+    <style>
+      .typing-effect {
+        background-color: transparent;
+        font-family: Arial, sans-serif;
+        font-size: 38px;
+        color: #0431f7;
+        margin: 50px auto;
+        width: 80%;
+        text-align: center;
+        margin-top: 3px;
+
+        /* border-bottom: 2px solid #333; */
+        padding-bottom: 20px;
+      }
+    </style>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="css/fontAwesome.css" />
+    <link rel="stylesheet" href="css/light-box.css" />
+    <link rel="stylesheet" href="css/owl-carousel.css" />
+    <link rel="stylesheet" href="css/templatemo-style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800"
+      rel="stylesheet"
+    />
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  </head>
+  <body>
+    <header class="nav-down responsive-nav hidden-lg hidden-md">
+      <button
+        type="button"
+        id="nav-toggle"
+        class="navbar-toggle"
+        data-toggle="collapse"
+        data-target="#main-nav"
+      >
+        <span class="sr-only">Alerta Navegação</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!--/.navbar-header-->
+      <div id="main-nav" class="collapse navbar-collapse">
+        <nav>
+          <ul class="nav navbar-nav">
+            <li><a href="#top">Home</a></li>
+            <li><a href="#featured">Em destaque</a></li>
+            <li><a href="#projects">Lugares maravilhosos</a></li>
+            <li><a href="#video">Apresentações</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="sidebar-navigation hidde-sm hidden-xs">
+      <div class="logo">
+        <a href="#">Rio de<em>Janeiro</em></a>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#top">
+              <span class="rect"></span>
+              <span class="circle"></span>
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#featured">
+              <span class="rect"></span>
+              <span class="circle"></span>
+              Apresentações
+            </a>
+          </li>
+          <li>
+            <a href="#projects">
+              <span class="rect"></span>
+              <span class="circle"></span>
+              Nâo tem igual
+            </a>
+          </li>
+          <li>
+            <a href="#video">
+              <span class="rect"></span>
+              <span class="circle"></span>
+              Conhecendo o RJ.
+            </a>
+          </li>
+
+          <li>
+            <a href="#contact">
+              <span class="rect"></span>
+              <span class="circle"></span>
+              Contatos
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="social-icons">
+        <li>
+          <a
+            href="https://www.facebook.com/profile.php?id=61558847595219"
+            target="_blank"
+            ><i class="fa fa-facebook"></i>Facebook</a
+          >
+        </li>
+        <li>
+          <a href="https://www.instagram.com/dev_davi.web/" target="_blank"
+            ><i class="fa fa-instagram"></i>Instagram</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/davi-ferreira-da-silva-915a891a4"
+            target="_blank"
+            ><i class="fa fa-linkedin"></i>Linkdin</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/Davifs488" target="_blank"
+            ><i class="fa fa-github"></i>GitHub</a
+          >
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-youtube"></i>Youtube</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="slider">
+      <div class="Modern-Slider content-section" id="top">
+        <!-- Item -->
+        <div class="item item-1">
+          <div class="img-fill">
+            <div class="image"></div>
+            <div class="info">
+              <div>
+                <h1>Uma linda parte<br />do Rio de Janeiro</h1>
+
+                <div class="white-button button"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- // Item -->
+        <!-- Item -->
+        <div class="item item-2">
+          <div class="img-fill">
+            <div class="image"></div>
+            <div class="info">
+              <div>
+                <h1>Tragam <br />Seus amigos</h1>
+
+                <div class="white-button button"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- // Item -->
+        <!-- Item -->
+
+        <!-- // teste01 -->
+        <!-- Item -->
+        <div class="item item-3">
+          <div class="img-fill">
+            <div class="image"></div>
+            <div class="info">
+              <div>
+                <h1>Natureza<br />e Vida</h1>
+
+                <div class="white-button button"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- // Item -->
+        <!--teste01 -->
+
+        <!-- // teste02 -->
+        <!-- Item -->
+        <div class="item item-4">
+          <div class="img-fill">
+            <div class="image"></div>
+            <div class="info">
+              <div>
+                <h1>Lugar<br />Marcante</h1>
+
+                <div class="white-button button"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- // Item -->
+        <!-- teste02 -->
+
+        <!-- // teste03 -->
+        <!-- Item -->
+        <div class="item item-5">
+          <div class="img-fill">
+            <div class="image"></div>
+            <div class="info">
+              <div>
+                <h1>Arte e<br />Cultura</h1>
+
+                <div class="white-button button"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- // Item -->
+        <!-- teste03 -->
+
+        <div class="item item-6">
+          <div class="img-fill">
+            <div class="image"></div>
+            <div class="info">
+              <div>
+                <h1>
+                  Você vai <br />
+                  Amar <br />
+                  O que vai ver
+                </h1>
+
+                <div class="white-button button"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- // Item -->
+      </div>
+    </div>
+
+    <div class="typing-effect" id="typing-effect"></div>
+
+    <div class="page-content">
+      <section id="featured" class="content-section">
+        <div class="section-heading">
+          <h1>Paisagens <br /><em>Únicas</em></h1>
+        </div>
+
+        <div class="section-content">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="image">
+                <img src="img03/slide_1.webp" alt="" />
+                <div class="featured-button button"></div>
+              </div>
+              <div class="text-content">
+                <h4>Seja nas férias</h4>
+                <span>no seu descanso </span>
+                <p>
+                  Descubra a beleza infinita e a energia vibrante do Rio de
+                  Janeiro, uma cidade deslumbrante que cativa os corações de
+                  milhões de visitantes todos os anos. Conhecida como a "Cidade
+                  Maravilhosa", o Rio oferece uma experiência única, repleta de
+                  paisagens , cultura e uma atmosfera contagiante que é
+                  impossível resistir. Prepare-se para explorar uma infinidade
+                  de pontos turísticos fascinantes que capturam a essência desta
+                  cidade icônica. Das famosas praias de areias douradas, como
+                  Copacabana e Ipanema, que convidam para um dia de relaxamento
+                  ao sol, à majestosa montanha do Pão de Açúcar, onde a vista
+                  panorâmica da cidade é simplesmente de tirar o fôlego.
+                  Descubra a beleza infinita e a energia do Rio de Janeiro, uma
+                  cidade encantadora que cativa os corações de milhões de
+                  visitantes .
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="img03/slide_2.jpg" alt="" />
+                <div class="featured-button button"></div>
+              </div>
+              <div class="text-content">
+                <h4>Curtição</h4>
+                <span>ou a Passeio</span>
+                <p>
+                  E quando o sol se põe, o Rio de Janeiro ganha vida com uma
+                  animada cena noturna. De bares de praia descontraídos a
+                  sofisticados clubes noturnos, a cidade oferece uma variedade
+                  de opções para todos os gostos. Experimente a deliciosa
+                  culinária carioca, que combina influências africanas,
+                  indígenas e europeias em pratos irresistíveis como feijoada,
+                  moqueca e churrasco. Mas além de suas paisagens deslumbrantes
+                  e atmosfera vibrante, o verdadeiro encanto do Rio de Janeiro
+                  reside em seu povo acolhedor e hospitaleiro. Conhecidos como
+                  "cariocas", os habitantes locais são conhecidos por sua
+                  alegria de viver e sua paixão pela música, dança e celebração.
+                  Então venha se perder nas maravilhas do Rio de Janeiro, onde
+                  cada esquina oferece uma nova descoberta e cada momento é uma
+                  aventura inesquecível. Experimente a magia desta cidade
+                  fascinante e deixe-se levar pela sua beleza cativante e sua
+                  energia contagiante.
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="img03/slide_3.jpg" alt="" />
+                <div class="featured-button button"></div>
+              </div>
+              <div class="text-content">
+                <h4>A nossa Cidade e envolvida com a ecologia</h4>
+                <span>A natureza e vida</span>
+                <p>
+                  O Rio de Janeiro é uma cidade extraordinária e vibrante,
+                  famosa por suas praias , paisagens naturais e uma cultura rica
+                  e diversificada. Conhecido como "Cidade Maravilhosa", o Rio é
+                  uma mistura fascinante de montanhas imponentes, florestas
+                  tropicais e uma costa espetacular. Um dos pontos turísticos
+                  mais icônicos do Rio é o Cristo Redentor, uma imponente
+                  estátua de Jesus Cristo no topo do Morro do Corcovado, de onde
+                  se tem uma vista panorâmica da cidade. O Pão de Açúcar é outro
+                  marco imperdível, oferecendo teleféricos que levam os
+                  visitantes até o topo para vistas espetaculares da baía. As
+                  praias são uma parte essencial da vida carioca.
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img
+                  src="img/_0103efca-0ea0-4de9-bd70-f3146425a176.jpeg"
+                  alt=""
+                />
+                <div class="featured-button button"></div>
+              </div>
+              <div class="text-content">
+                <h4>Um fim de semana em um Jardim</h4>
+                <span>Na Quinta da Boa Vista</span>
+                <p>
+                  Quinta da Boa Vista é um oásis de tranquilidade no coração do
+                  Rio, com seus jardins exuberantes e lagos serenos. É o local
+                  perfeito para um passeio relaxante ou um picnic em família,
+                  imerso na história e na natureza.
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img
+                  src="img/arcosLapaLindo.jpeg"
+                  alt="imagem dos arcos da lapa"
+                />
+
+                <div class="featured-button button"></div>
+              </div>
+              <div class="text-content">
+                <h4>Uma estrutura historica</h4>
+                <span>Arcos da Lapa</span>
+                <p>
+                  Os Arcos da Lapa são verdadeiros ícones da arquitetura
+                  carioca, testemunhas do passado glorioso da cidade. À noite,
+                  ganham vida com luzes coloridas e música, refletindo a animada
+                  vida noturna que pulsa nos seus arredores.
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img
+                  src="img03/theatro-municipal-rj.jpg"
+                  alt="foto theatro theatro-municipal-rj"
+                  srcset=""
+                />
+
+                <div class="featured-button button"></div>
+              </div>
+              <div class="text-content">
+                <h4>Cultura no coração da cidade</h4>
+                <span> Theatro-Municiapal do RJ</span>
+                <p>
+                  O Theatro Municipal do Rio de Janeiro é uma verdadeira joia
+                  arquitetônica, com sua fachada imponente e interiores
+                  ricamente ornamentados. Ao adentrar suas portas, somos
+                  transportados para uma era de esplendor artístico, onde a
+                  música, a dança e o teatro se unem em performances memoráveis
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img
+                  src="img/forte-copa01.jpeg"
+                  alt="imagem do Forte de Copa Cabana"
+                />
+                <div class="featured-button button"></div>
+              </div>
+              <div class="text-content">
+                <h4>Um lugar Histórico</h4>
+                <span>O Forte de Copa Copacabana</span>
+                <p>
+                  O Forte de Copacabana é mais do que uma fortificação
+                  histórica, é um ponto de vista privilegiado para contemplar a
+                  beleza da costa carioca. Além disso, abriga um museu
+                  fascinante, que narra a história militar do Brasil, e oferece
+                  uma experiência gastronômica única com seu charmoso café com
+                  vista para o mar.
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="img/aquaRioLindo.jpeg" alt="Imagem do AquaRio" />
+                <div class="featured-button button"></div>
+              </div>
+              <div class="text-content">
+                <h4>Passeio e diversão</h4>
+                <span>AquaRio</span>
+                <p>
+                  O AquaRio é um mergulho fascinante no mundo subaquático, onde
+                  podemos explorar a diversidade da vida marinha brasileira e
+                  global. É uma jornada educativa e emocionante, adequada para
+                  todas as idades, que nos conecta de forma única com os
+                  mistérios dos oceanos.
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img
+                  src="img/bomd.pao-lindo.jpeg"
+                  alt="Imagem do bomdinho do pão de açúcar"
+                />
+                <div class="featured-button button"></div>
+              </div>
+              <div class="text-content">
+                <h4>Onde você vê a cidade</h4>
+                <span>Bondinho do Pão de Açúcar</span>
+                <p>
+                  O Bondinho do Pão de Açúcar é um ícone do Rio de Janeiro,
+                  proporcionando uma experiência de tirar o fôlego ao subir até
+                  o topo do Morro da Urca e do Pão de Açúcar. É uma oportunidade
+                  imperdível para apreciar as vistas deslumbrantes da cidade, da
+                  baía e das praias abaixo, em uma aventura que ficará gravada
+                  na memória para sempre.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="content-section">
+        <div class="section-heading">
+          <h1>Sinta á natureza<br /><em>presente</em></h1>
+          <p>
+            Na maioria dos nossos espaços temos a presença encantadora da
+            natureza em destaque
+          </p>
+        </div>
+        <div class="section-content">
+          <div class="masonry">
+            <div class="row">
+              <div class="item">
+                <div class="col-md-8">
+                  <a
+                    href="img/santaTerezaLindo.jpeg"
+                    data-lightbox="image criada
+                  por ia do bonde de Santa tereza sobindo a ladeira"
+                    ><img
+                      src="img/rioSimaMuito-lindo.jpeg"
+                      alt="Um avião mostrando a Cidade de cima"
+                  /></a>
+                </div>
+              </div>
+              <div class="item second-item">
+                <div class="col-md-4">
+                  <a
+                    href="img/pisraAterro.jpeg"
+                    data-lightbox="Imagem feita por ia 
+                  do aterro do Flamengo"
+                    ><img
+                      src="img/jadimQuinta02.jpeg"
+                      alt="jardim da Quinta de boa vista"
+                  /></a>
+                </div>
+              </div>
+              <div class="item">
+                <div class="col-md-4">
+                  <a
+                    href="img/bomd.pao-lindo.jpeg"
+                    data-lightbox="Uma imagem feita
+                  por ia mostrando o bondinho do pão de açuca, por fora"
+                    ><img
+                      src="img/forte-copa01.jpeg"
+                      alt="Uma imagem feita por 
+                    ia dos canhões do forte de Copa Cabana"
+                  /></a>
+                </div>
+              </div>
+              <div class="item">
+                <div class="col-md-4">
+                  <a
+                    href="img/_14f688c0-844f-4339-9224-d1ac46dda50f.jpeg"
+                    data-lightbox="Centro do RJ"
+                    ><img
+                      src="img/_3198942a-08d9-44b7-af2c-8550f65e7d4a.jpeg"
+                      alt="Foto feita por ia da Quinta da boa vista por cima"
+                  /></a>
+                </div>
+              </div>
+              <div class="item">
+                <div class="col-md-8">
+                  <a
+                    href="img/_43c04da5-f19e-4513-b9cf-4fe1aa26fb06.jpeg"
+                    data-lightbox="Foto feita por ia o RJ por cima"
+                    ><img
+                      src="img/_78ff2cdf-4189-4814-9772-41b40f9e596d.jpeg"
+                      alt="Um avião em voo monstrando o RJ"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="video" class="content-section">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h1>Esta é uma <em>Apresentação </em> do Rio de Janeiro.</h1>
+              <p>Um pequeno resumo do lugares deslumbrante do Rio de Janeiro</p>
+            </div>
+            <div class="text-content">
+              <p>
+                "Este vídeo captura a essência dos pontos turísticos do Rio de
+                Janeiro, desde as praias ensolaradas até os ícones
+                arquitetônicos como o Cristo Redentor e os Arcos da Lapa. Uma
+                jornada visualmente deslumbrante pela Cidade Maravilhosa que
+                desperta o desejo de explorar cada cantinho dessa cidade
+                vibrante e cheia de vida!"
+              </p>
+            </div>
+            <div class="accent-button button"></div>
+          </div>
+          <div class="col-md-12">
+            <div class="box-video">
+              <div
+                class="bg-video"
+                style="
+                  background-image: url(https://unsplash.imgix.net/photo-1425036458755-dc303a604201?fit=crop&fm=jpg&q=75&w=1000);
+                "
+              >
+                <div class="bt-play">Um resumo</div>
+              </div>
+              <div class="video-container">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/iqDP2kxPz2c?si=P_75w47nWOUPRAD6"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="blog" class="content-section">
+        <div class="section-heading">
+          <h1>Períodos<br /><em>Marcantes</em></h1>
+          <p>
+            O Rio de Janeiro é uma cidade que pulsa com energia durante o
+            Carnaval e o Réveillon. Além disso Ela é conhecido por seu clima
+            tropical, o que significa que faz calor quase o ano todo.
+            <br />
+          </p>
+        </div>
+        <div class="section-content">
+          <div class="tabs-content">
+            <div class="wrapper">
+              <ul class="tabs clearfix" data-tabgroup="first-tab-group">
+                <li><a href="#tab1" class="active">Carnaval</a></li>
+                <li><a href="#tab2">Verão</a></li>
+                <li><a href="#tab3">Réveillon</a></li>
+              </ul>
+              <section id="first-tab-group" class="tabgroup">
+                <div id="tab1">
+                  <ul>
+                    <li>
+                      <div class="item">
+                        <img src="img/blog_1.jpg" alt="" />
+                        <div class="text-content">
+                          <h4>O melhor carnaval da história</h4>
+                          <span>A festa do povo</span>
+                          <p>
+                            Carnaval:<br />
+                            O Carnaval do Rio de Janeiro é uma das maiores
+                            festas do mundo, atraindo milhões de turistas de
+                            todo o mundo a cada ano. O evento é caracterizado
+                            por desfiles de escolas de samba, que competem na
+                            Marquês de Sapucaí com elaborados carros alegóricos,
+                            fantasias luxuosas e performances emocionantes. Além
+                            dos desfiles, os blocos de rua são uma parte
+                            essencial do Carnaval carioca, com multidões se
+                            reunindo para dançar, cantar e celebrar pelas ruas
+                            da cidade. O Carnaval é uma festa de grande
+                            importância cultural, que reflete a diversidade e a
+                            paixão do povo brasileiro.
+                          </p>
+                          <hr />
+                          <p>
+                            Carnival:<br />
+                            The Carnival in Rio de Janeiro is one of the biggest
+                            parties in the world, attracting millions of
+                            tourists from around the globe each year. The event
+                            is characterized by samba school parades, competing
+                            in the Sambadrome with elaborate floats, luxurious
+                            costumes, and thrilling performances. In addition to
+                            the parades, street blocos are an essential part of
+                            Rio's Carnival, with crowds gathering to dance,
+                            sing, and celebrate through the city streets.
+                            Carnival is a culturally significant festival,
+                            reflecting the diversity and passion of the
+                            Brazilian people.
+                          </p>
+
+                          <div class="accent-button button"></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="item">
+                        <img src="img/blog_2.jpg" alt="" />
+                        <div class="text-content">
+                          <h4>Rio quarenta graus</h4>
+                          <span>O verão com calor e diversão</span>
+                          <p>
+                            Clima Quente: <br />
+                            O Rio de Janeiro possui um clima tropical úmido,
+                            caracterizado por temperaturas quentes durante a
+                            maior parte do ano. No verão, que vai de dezembro a
+                            março, as temperaturas podem facilmente ultrapassar
+                            os 40°C, com alta umidade e frequentes chuvas de
+                            verão. Isso torna as praias um refúgio popular para
+                            os moradores locais e turistas, que buscam alívio do
+                            calor no mar refrescante e nas brisas suaves. No
+                            entanto, é importante se proteger do sol forte
+                            usando protetor solar e procurar áreas sombreadas
+                            durante os momentos mais quentes do dia. O clima
+                            quente do Rio contribui para a atmosfera
+                            descontraída e vibrante da cidade, criando um
+                            ambiente propício para atividades ao ar livre e vida
+                            noturna animada.
+                          </p>
+
+                          <hr />
+
+                          <p>
+                            Warm Climate: <br />
+                            Rio de Janeiro has a humid tropical climate,
+                            characterized by warm temperatures throughout most
+                            of the year. In the summer, which runs from December
+                            to March, temperatures can easily surpass 30°C
+                            (86°F), with high humidity and frequent summer
+                            showers. This makes the beaches a popular refuge for
+                            locals and tourists alike, seeking relief from the
+                            heat in the refreshing sea and gentle breezes.
+                            However, it's important to protect oneself from the
+                            strong sun by using sunscreen and seeking shaded
+                            areas during the hottest times of the day. Rio's
+                            warm climate contributes to the city's relaxed and
+                            vibrant atmosphere, creating an environment
+                            conducive to outdoor activities and lively
+                            nightlife.
+                          </p>
+
+                          <div class="accent-button button"></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="item">
+                        <img src="img/blog_3.jpg" alt="" />
+                        <div class="text-content">
+                          <h4>A melhor virada de ano</h4>
+                          <span>Todo 31 de Dezembro</span>
+                          <p>
+                            Réveillon: <br />
+                            O Réveillon no Rio de Janeiro é uma celebração
+                            magnífica que acontece nas praias mais famosas da
+                            cidade, como Copacabana e Ipanema. Milhões de
+                            pessoas se reúnem para assistir aos espetaculares
+                            shows de fogos de artifício que iluminam o céu à
+                            meia-noite, enquanto celebram a chegada do novo ano
+                            com música ao vivo, festas na praia e rituais
+                            simbólicos, como pular sete ondas no mar para atrair
+                            sorte e prosperidade. É uma experiência única e
+                            emocionante, que reflete a alegria e o espírito
+                            festivo do povo carioca.
+                          </p>
+
+                          <hr />
+                          <p>
+                            New Year's Eve (Réveillon): <br />
+                            New Year's Eve in Rio de Janeiro is a magnificent
+                            celebration that takes place on the city's most
+                            famous beaches, such as Copacabana and Ipanema.
+                            Millions of people gather to watch the spectacular
+                            fireworks shows that light up the sky at midnight,
+                            while celebrating the arrival of the new year with
+                            live music, beach parties, and symbolic rituals,
+                            such as jumping seven waves in the sea to attract
+                            luck and prosperity. It is a unique and thrilling
+                            experience that reflects the joy and festive spirit
+                            of the people of Rio.
+                          </p>
+
+                          <div class="accent-button button"></div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div id="tab2">
+                  <ul>
+                    <li>
+                      <div class="item">
+                        <img src="img/blog_3.jpg" alt="" />
+                        <div class="text-content">
+                          <h4>O nosso verão e marcante</h4>
+                          <span>Muito sol, calor e mar</span>
+
+                          <p>
+                            Warm Climate: <br />
+                            Rio de Janeiro has a humid tropical climate,
+                            characterized by warm temperatures throughout most
+                            of the year. In the summer, which runs from December
+                            to March, temperatures can easily surpass 30°C
+                            (86°F), with high humidity and frequent summer
+                            showers. This makes the beaches a popular refuge for
+                            locals and tourists alike, seeking relief from the
+                            heat in the refreshing sea and gentle breezes.
+                            However, it's important to protect oneself from the
+                            strong sun by using sunscreen and seeking shaded
+                            areas during the hottest times of the day. Rio's
+                            warm climate contributes to the city's relaxed and
+                            vibrant atmosphere, creating an environment
+                            conducive to outdoor activities and lively
+                            nightlife.
+                          </p>
+
+                          <div class="accent-button button"></div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="item">
+                        <img src="img/blog_2.jpg" alt="" />
+                        <div class="text-content">
+                          <h4>Carnaval no Rio de Janeiro</h4>
+                          <span>São dia inesquecíveis</span>
+                          <p>
+                            Carnival:<br />
+                            The Carnival in Rio de Janeiro is one of the biggest
+                            parties in the world, attracting millions of
+                            tourists from around the globe each year. The event
+                            is characterized by samba school parades, competing
+                            in the Sambadrome with elaborate floats, luxurious
+                            costumes, and thrilling performances. In addition to
+                            the parades, street blocos are an essential part of
+                            Rio's Carnival, with crowds gathering to dance,
+                            sing, and celebrate through the city streets.
+                            Carnival is a culturally significant festival,
+                            reflecting the diversity and passion of the
+                            Brazilian people.
+                          </p>
+
+                          <div class="accent-button button"></div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="content-section"></section>
+
+      <div>
+        <video autoplay loop muted plays-inline width="300px" height="120px">
+          <source src="./img03/Davi.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <section class="footer">
+        <footer class="footer">
+          <p>Copyright &copy;dev_davi 2024</p>
+          <p>
+            Email: sildv45@gmail.com <br />
+            Tel:(21)983027452
+          </p>
+        </footer>
+      </section>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const words = [
+          "Bem Vidos ao",
+          "Welcome to",
+          "Rio de Janeiro",
+
+          "A cidade Maravilhosa",
+          "The wonderful city",
+          "Vou te apresentar os lugares",
+          "Mais lindo do planeta",
+
+          "I will introuce you to the most",
+          "Beautiful places on the planet",
+        ];
+        let index = 0;
+        let currentWord = "";
+        let letterIndex = 0;
+        const typingEffectElement = document.getElementById("typing-effect");
+
+        function type() {
+          if (index < words.length) {
+            if (letterIndex < words[index].length) {
+              currentWord += words[index].charAt(letterIndex);
+              typingEffectElement.innerText = currentWord;
+              letterIndex++;
+              setTimeout(type, 200); // Adjust typing speed here
+            } else {
+              typingEffectElement.innerText = currentWord;
+              currentWord = "";
+              letterIndex = 0;
+              index++;
+              setTimeout(type, 2000); // Adjust delay between words here
+            }
+          } else {
+            index = 0;
+            setTimeout(type, 0); // Restart typing loop
+          }
+        }
+
+        type();
+      });
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="js/vendor/jquery-1.11.2.min.js"><\/script>'
+        );
+    </script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+      // Hide Header on on scroll down
+      var didScroll;
+      var lastScrollTop = 0;
+      var delta = 5;
+      var navbarHeight = $("header").outerHeight();
+
+      $(window).scroll(function (event) {
+        didScroll = true;
+      });
+
+      setInterval(function () {
+        if (didScroll) {
+          hasScrolled();
+          didScroll = false;
+        }
+      }, 250);
+
+      function hasScrolled() {
+        var st = $(this).scrollTop();
+
+        // Make sure they scroll more than delta
+        if (Math.abs(lastScrollTop - st) <= delta) return;
+
+        // If they scrolled down and are past the navbar, add class .nav-up.
+        // This is necessary so you never see what is "behind" the navbar.
+        if (st > lastScrollTop && st > navbarHeight) {
+          // Scroll Down
+          $("header").removeClass("nav-down").addClass("nav-up");
+        } else {
+          // Scroll Up
+          if (st + $(window).height() < $(document).height()) {
+            $("header").removeClass("nav-up").addClass("nav-down");
+          }
+        }
+
+        lastScrollTop = st;
+      }
+
+      // src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"
+    </script>
+    <script
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"
+      type="text/javascript"
+    ></script>
+  </body>
+</html>

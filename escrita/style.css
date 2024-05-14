@@ -1,0 +1,11 @@
+.typing-effect {
+  background-color: rgb(208, 251, 208);
+  font-family: Arial, sans-serif;
+  font-size: 34px;
+  color: #0431f7;
+  margin: 50px auto;
+  width: 80%;
+  text-align: center;
+  border-bottom: 2px solid #333;
+  padding-bottom: 20px;
+}
